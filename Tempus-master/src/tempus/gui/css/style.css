@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 Feb 2020, 20:44:07
+    Author     : PC
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.buttons{
+    /* turquoise color */
+    -fx-background-color: linear-gradient( #3dd0e0,#3dd0e0);
+    -fx-background-radius: 10px;
+}
+
+.table-view{
+    -fx-background-color: #282828;
+    -fx-text-fill: white;
+}
+
+.BackGround{
+    -fx-background-color: #008b8b, #008b8b;
+    }
+    
+.Headline{
+   -fx-font-family: "Skranji";    
+   -fx-font-size: 28;
+   -fx-font-color: linear-gradient( #3dd0e0,#3dd0e0);
+}
+
+.toggleBtns{
+    -fx-background-color: linear-gradient( #3dd0e0,#3dd0e0);
+    -fx-background-radius: 10px;
+    -fx-font-size: 12;
+}
+
+.toggleBtns:selected{
+    -fx-background-color: #FFF594;
+ }
+ 
+ .deleteBackground{
+    -fx-background-color: #A3CCFA;
+ }
+ 
+ .btnDeleteWindow{
+     -fx-background-color: #C9E7F9;
+     -fx-background-radius: 8px;
+     -fx-border-radius: 8px;
+     -fx-border-color: black;
+ }
+ 
+ .timeIsMoney{
+    -fx-font-family: "Pacifico";    
+    -fx-font-size: 50;
+    }
+ 
+ 

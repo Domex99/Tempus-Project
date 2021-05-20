@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="1070.0" styleClass="BackGround" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tempus.gui.controller.DeveloperProjectInfoController">
+   <children>
+      <Label layoutX="444.0" layoutY="32.0" prefHeight="38.0" prefWidth="177.0" styleClass="Headline" stylesheets="@../css/style.css" text="Projects Info" AnchorPane.topAnchor="32.0" />
+      <TableView fx:id="tblProjInfo" layoutX="68.0" layoutY="102.0" prefHeight="405.0" prefWidth="605.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="100.0">
+        <columns>
+          <TableColumn fx:id="colName" prefWidth="163.99998474121094" text="Project Name" />
+          <TableColumn fx:id="colDescription" prefWidth="785.1999969482422" text="Description" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
